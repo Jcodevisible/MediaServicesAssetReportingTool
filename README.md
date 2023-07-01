@@ -101,23 +101,7 @@ AssetName3 containerName3 storageAccount2
 
  
 
-After all the data has been processed a JSON string will be output to the console, and you will want to copy it.  You can use a JSON formatter online to format it.  
-
- 
-
-Example: 
-
- 
-
- 
-
-  
-
-  
-
-  
-
-The exported data is stored in  the BIN folder there is an AMSreports subfolder. 
+After all the data has been processed a JSON string will be output to the console, and you will want to copy it.  You can use a JSON formatter online to format it.  The exported data is stored in  the BIN folder there is an AMSreports subfolder. 
 
 File names correspond to locales, e.g., `reportname.txt`, `reportname.csv`. 
 

@@ -68,7 +68,7 @@ namespace MediaServicesReportingTool
 
                 outputtype = Console.ReadLine();
                 outputtype = outputtype.ToUpper();
-                Console.WriteLine($"Results will be written to {root.BaseDirectory}//AMSreports//");
+                Console.WriteLine($"Results will be written to {root.BaseDirectory}AMSreports");
 
                 if (outputtype == "CSV")
                 {
@@ -90,7 +90,7 @@ namespace MediaServicesReportingTool
                     
                 }
                
-                Console.WriteLine($"Results will be written to {root.BaseDirectory}//AMSreports//.  Press any key to close the program.");
+                Console.WriteLine($"Results will be written to {root.BaseDirectory}AMSreports.  Press any key to close the program.");
                 Console.ReadKey();
             }
                 
@@ -153,7 +153,8 @@ namespace MediaServicesReportingTool
 
             }
 
-
+            Console.WriteLine($"Results will be written to {root.BaseDirectory}AMSreports.  Press any key to close the program.");
+            Console.ReadKey();
 
         }
 
@@ -443,7 +444,8 @@ namespace MediaServicesReportingTool
 
             }
 
-
+            Console.WriteLine($"Results will be written to {root.BaseDirectory}AMSreports.  Press any key to close the program.");
+            Console.ReadKey();
 
         }
 
@@ -757,6 +759,9 @@ namespace MediaServicesReportingTool
             {
                 Console.WriteLine(ex.Message);
             }
+
+            Console.WriteLine($"Results will be written to {root.BaseDirectory}AMSreports.  Press any key to close the program.");
+            Console.ReadKey();
         }
 
 
